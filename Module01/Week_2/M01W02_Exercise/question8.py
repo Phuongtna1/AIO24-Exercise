@@ -1,5 +1,7 @@
 def my_function(n):
     return min(n)
+
+
 my_list = [1, 22, 93, -100]
 assert my_function(my_list) == -100
 

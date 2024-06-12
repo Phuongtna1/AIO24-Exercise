@@ -1,6 +1,7 @@
 def my_function(n):
     return max(n)
 
+
 my_list = [1001, 9, 100, 0]
 assert my_function(my_list) == 1001
 
