@@ -1,6 +1,3 @@
 x = -2.0
-if x <= 0.0:
-    y = 0.0
-else:
-    y = x
+y = x if x > 0 else 0
 print(y)
